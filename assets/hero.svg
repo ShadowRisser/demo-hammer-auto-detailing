@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#42e8ff"/><stop offset="1" stop-color="#7c4dff"/></linearGradient><filter id="blur"><feGaussianBlur stdDeviation="18"/></filter></defs>
+<rect width="1200" height="800" fill="#05070b"/><circle cx="930" cy="130" r="170" fill="#42e8ff" opacity=".22" filter="url(#blur)"/><circle cx="240" cy="660" r="220" fill="#7c4dff" opacity=".20" filter="url(#blur)"/>
+<path d="M210 500 C280 370 380 320 520 310 L715 310 C825 315 920 375 1005 500 Z" fill="url(#g)" opacity=".95"/>
+<path d="M300 495 L395 385 L690 385 L830 495 Z" fill="#101827" opacity=".9"/>
+<path d="M410 390 L508 330 L675 333 L735 390 Z" fill="#07111a" stroke="white" stroke-opacity=".18" stroke-width="4"/>
+<circle cx="360" cy="510" r="74" fill="#05070b" stroke="white" stroke-opacity=".2" stroke-width="12"/><circle cx="360" cy="510" r="31" fill="#42e8ff"/>
+<circle cx="850" cy="510" r="74" fill="#05070b" stroke="white" stroke-opacity=".2" stroke-width="12"/><circle cx="850" cy="510" r="31" fill="#42e8ff"/>
+<path d="M170 560 C350 620 825 620 1060 555" stroke="white" stroke-opacity=".16" stroke-width="16" fill="none"/>
+<text x="70" y="115" fill="white" font-size="54" font-family="Arial" font-weight="800">Hammer Auto Detailing</text><text x="72" y="166" fill="#42e8ff" font-size="28" font-family="Arial" letter-spacing="4">MOBILE DETAILING DEMO</text>
+</svg>

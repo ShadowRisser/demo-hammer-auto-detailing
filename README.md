@@ -1,5 +1,3 @@
-# Hammer Auto Detailing Demo
+# Hammer Auto Detailing premium demo
 
-Tailored outreach demo for https://www.instagram.com/hammerautodetailing/.
-
-This demo uses custom placeholder visuals and tailored copy only. It does not reuse Instagram images.
+Animated custom outreach demo. Images are generated SVG concept assets, not copied social media photos.
