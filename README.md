@@ -1,3 +1,3 @@
-# Hammer Auto Detailing premium demo
+# Hammer Auto Detailing Sales-Quality Demo
 
-Animated custom outreach demo. Images are generated SVG concept assets, not copied social media photos.
+Long-form outreach demo with stock-style imagery, packages, lead capture, FAQ, and automation positioning.
