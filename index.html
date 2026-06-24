@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hammer Auto Detailing — Demo Booking Website</title>
+  <meta name="description" content="A tailored demo website concept for Hammer Auto Detailing." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav><strong>Hammer Auto Detailing</strong><a href="https://www.instagram.com/hammerautodetailing/" target="_blank">Instagram</a></nav>
+    <section class="hero-grid">
+      <div>
+        <p class="eyebrow">Demo concept • Lethbridge</p>
+        <h1>Mobile detailing that makes every car feel brand new.</h1>
+        <p class="sub">A fast booking page for drivers who find Hammer Auto Detailing on Instagram and want a clean way to request a detail without back-and-forth DMs.</p>
+        <div class="actions"><a class="btn" href="#book">Request a Detail</a><a class="btn ghost" href="#services">See Services</a></div>
+      </div>
+      <div class="visual-card" aria-label="demo visual">
+        <div class="phone"><div class="notch"></div><div class="screen"><span>Clean. Sharp. Protected.</span><strong>Hammer Auto Detailing</strong><em>Mobile car detailing</em></div></div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="section intro">
+      <p class="eyebrow">Why this page works</p>
+      <h2>Instagram gets attention. This page turns it into bookings.</h2>
+      <p>For a detailing business, Instagram proves the visual quality. A one-page booking funnel gives visitors the next step: choose the package, submit their phone, and get a follow-up.</p>
+    </section>
+    <section id="services" class="section">
+      <p class="eyebrow">Services</p>
+      <h2>Simple service menu built for fast decisions</h2>
+      <div class="cards"><article class="card"><h3>Interior Reset</h3><p>Vacuum, wipe-down, stain attention, and a fresh cabin feel.</p></article>
+<article class="card"><h3>Exterior Shine</h3><p>Wash, wheels, trim, and paint-safe finishing for a clean first impression.</p></article>
+<article class="card"><h3>Protection Package</h3><p>Upsell-ready option for wax, sealant, or ceramic-style protection.</p></article></div>
+    </section>
+    <section class="section split">
+      <div><p class="eyebrow">Automation hook</p><h2>Quote requests without DM chaos</h2><p>Each form submission can trigger a WhatsApp reply, booking confirmation, and follow-up reminder.</p></div>
+      <div class="steps"><div>1<span>Visitor chooses a service</span></div><div>2<span>They submit phone/WhatsApp</span></div><div>3<span>Auto reply + booking follow-up</span></div></div>
+    </section>
+    <section id="book" class="section booking">
+      <p class="eyebrow">Demo form</p>
+      <h2>Request a booking or quote</h2>
+      <form onsubmit="event.preventDefault(); document.querySelector('.thanks').classList.add('show')">
+        <input required placeholder="Your name" />
+        <input required placeholder="Phone / WhatsApp" />
+        <select required><option value="">Choose a service</option><option>Interior Reset</option>
+<option>Exterior Shine</option>
+<option>Protection Package</option></select>
+        <textarea placeholder="Preferred time or details"></textarea>
+        <button>Request a Detail</button>
+      </form>
+      <p class="thanks">Demo: this is where WhatsApp/email automation would trigger.</p>
+    </section>
+  </main>
+  <footer><p>Unofficial outreach demo concept. Visuals are custom placeholders, not copied from Instagram.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
